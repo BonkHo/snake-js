@@ -4,9 +4,25 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!--Google Fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" type="text/css" href="styles.css" />
         <title>Snake</title>
+        <script src="script.js" type="module"></script>
     </head>
     <body>
-        <div></div>
+        <h1>Snake</h1>
+        <div class="game-container">
+            <canvas id="canvas" width="256" height="256"></canvas>
+        </div>
+        <div class="score-container">
+            <div class="current-score">Current Score:</div>
+            <div class="high-score">High Score:</div>
+        </div>
     </body>
 </html>
